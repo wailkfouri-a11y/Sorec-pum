@@ -1,1 +1,15 @@
-{"name":"SOREC","short_name":"SOREC App","description":"توقعات خيول SOREC","start_url":"/Sorec-pum/","display":"standalone","background_color":"#0f172a","theme_color":"#0f172a","lang":"en","scope":"/Sorec-pum/","icons":[{"src":"https://cdn-icons-png.flaticon.com/512/3069/3069172.png","sizes":"192x192","type":"image/png"}]}
+{
+  "short_name": "SOREC",
+  "name": "SOREC & PMU Live",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#121212",
+  "theme_color": "#2e7d32",
+  "display": "standalone"
+}

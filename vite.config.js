@@ -1,1 +1,8 @@
-import { defineConfig } from 'vite'; import react from '@vitejs/plugin-react'; import { VitePWA } from 'vite-plugin-pwa'; export default defineConfig({ base: '/Sorec-pum/', plugins: [react(), VitePWA({ registerType: 'autoUpdate', manifest: { name: 'SOREC', short_name: 'SOREC App', description: 'توقعات خيول SOREC', theme_color: '#0f172a', background_color: '#0f172a', display: 'standalone', icons: [{ src: 'https://cdn-icons-png.flaticon.com/512/3069/3069172.png', sizes: '192x192', type: 'image/png' }] } })] });
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: './',
+})
