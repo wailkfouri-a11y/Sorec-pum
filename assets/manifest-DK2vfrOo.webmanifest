@@ -1,0 +1,15 @@
+{
+  "short_name": "SOREC",
+  "name": "SOREC & PMU Live",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#121212",
+  "theme_color": "#2e7d32",
+  "display": "standalone"
+}
